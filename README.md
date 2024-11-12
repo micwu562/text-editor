@@ -13,7 +13,7 @@ custom text editor for project
 - [ ] move cursor w/ mouse
 - [ ] make selections
 
-# design decisions
+### design decisions
 
 - display data separate from core data
 
