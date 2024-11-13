@@ -24,3 +24,15 @@ custom text editor for project
   - selection has to animate too
 
 - is no selection null selection or selection === cursor?
+
+### reading list
+
+`https://unicode.org/reports/tr29`
+
+- uax 19. specifies how word breaks are determined.
+- not implemented, for my own sanity.
+
+`https://www.unicode.org/reports/tr14`
+
+- uax 14. specifies line breaking algorithm
+- `@todo`: handle hyphen breaks, and maybe more?
