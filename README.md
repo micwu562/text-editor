@@ -2,17 +2,19 @@
 
 custom text editor for project
 
-### backlog
+### 10 / 13
 
-- [ ] css reset; essential css stuff (font-smoothing, etc)
-- [ ] error handling
-- [ ] custom text editor (not shadow textarea method)
+- [ ] ...
 
-### 10 / 11
+### 10 / 12
 
 - [x] move cursor w/ mouse
 - [x] make selections
-- [ ] navigate by word, line, etc (option/cmd + arrow keys)
+- [x] navigate by word, line, etc (option/cmd + arrow keys)
+
+### backlog
+
+- [ ] css reset; essential css stuff (font-smoothing, etc)
 
 ### design decisions
 
