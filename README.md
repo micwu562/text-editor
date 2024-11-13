@@ -8,10 +8,11 @@ custom text editor for project
 - [ ] error handling
 - [ ] custom text editor (not shadow textarea method)
 
-### 10 / 10
+### 10 / 11
 
-- [ ] move cursor w/ mouse
-- [ ] make selections
+- [x] move cursor w/ mouse
+- [x] make selections
+- [ ] navigate by word, line, etc (option/cmd + arrow keys)
 
 ### design decisions
 
@@ -21,3 +22,5 @@ custom text editor for project
   - needed since when char deleted, still need to track
   - display should be told what transaction type happened
   - selection has to animate too
+
+- is no selection null selection or selection === cursor?
