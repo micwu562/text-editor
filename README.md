@@ -14,36 +14,36 @@ custom text editor for project
 
 | inputType                        | done? | notes                             |
 | -------------------------------- | ----- | --------------------------------- |
-| insertText                       | [x]   |                                   |
+| insertText                       | `yes` |                                   |
 | ~~insertReplacementText~~        |       | ex. from spellchecker             |
-| insertLineBreak                  | [x]   | `shift`+`enter`                   |
-| insertParagraph                  | [x]   | `enter`                           |
+| insertLineBreak                  | `yes` | `shift`+`enter`                   |
+| insertParagraph                  | `yes` | `enter`                           |
 | ~~insertOrderedList~~            |       | could support but keybind unknown |
 | ~~insertUnorderedList~~          |       | could support but keybind unknown |
 | ~~insertHorizontalRule~~         |       | could support but keybind unknown |
-| insertFromYank                   | [ ]   |                                   |
-| insertFromDrop                   | [ ]   |                                   |
-| insertFromPaste                  | [ ]   | implemented but `text/plain` only |
-| insertFromPasteAsQuotation       | [ ]   |                                   |
-| insertTranspose                  | [ ]   |                                   |
-| insertCompositionText            | [ ]   |                                   |
-| insertLink                       | [ ]   |                                   |
-| deleteWordBackward               | [x]   |                                   |
-| deleteWordForward                | [x]   |                                   |
-| deleteSoftLineBackward           | [x]   |                                   |
-| deleteSoftLineForward            | [x]   |                                   |
-| deleteEntireSoftLine             | [ ]   |                                   |
-| deleteHardLineBackward           | [ ]   |                                   |
-| deleteHardLineForward            | [ ]   |                                   |
-| deleteByDrag                     | [ ]   |                                   |
-| deleteByCut                      | [x]   |                                   |
-| deleteContent                    | [ ]   |                                   |
-| deleteContentBackward            | [x]   |                                   |
-| deleteContentForward             | [x]   |                                   |
-| historyUndo                      | [ ]   |                                   |
-| historyRedo                      | [ ]   |                                   |
-| formatBold                       | [ ]   |                                   |
-| formatItalic                     | [ ]   |                                   |
+| insertFromYank                   | `no`  |                                   |
+| insertFromDrop                   | `no`  |                                   |
+| insertFromPaste                  | `no`  | implemented but `text/plain` only |
+| insertFromPasteAsQuotation       | `no`  |                                   |
+| insertTranspose                  | `no`  |                                   |
+| insertCompositionText            | `no`  |                                   |
+| insertLink                       | `no`  |                                   |
+| deleteWordBackward               | `yes` |                                   |
+| deleteWordForward                | `yes` |                                   |
+| deleteSoftLineBackward           | `yes` |                                   |
+| deleteSoftLineForward            | `yes` |                                   |
+| deleteEntireSoftLine             | `no`  |                                   |
+| deleteHardLineBackward           | `no`  |                                   |
+| deleteHardLineForward            | `no`  |                                   |
+| deleteByDrag                     | `no`  |                                   |
+| deleteByCut                      | `yes` |                                   |
+| deleteContent                    | `no`  |                                   |
+| deleteContentBackward            | `yes` |                                   |
+| deleteContentForward             | `yes` |                                   |
+| historyUndo                      | `no`  |                                   |
+| historyRedo                      | `no`  |                                   |
+| formatBold                       | `no`  |                                   |
+| formatItalic                     | `no`  |                                   |
 | ~~formatUnderline~~              |       |                                   |
 | ~~formatStrikethrough~~          |       | could support but keybind unknown |
 | ~~formatSuperscript~~            |       |                                   |
@@ -52,8 +52,8 @@ custom text editor for project
 | ~~formatJustifyCenter~~          |       |                                   |
 | ~~formatJustifyRight~~           |       |                                   |
 | ~~formatJustifyLeft~~            |       |                                   |
-| formatIndent                     | [ ]   |                                   |
-| formatOutdent                    | [ ]   |                                   |
+| formatIndent                     | `no`  |                                   |
+| formatOutdent                    | `no`  |                                   |
 | ~~formatRemove~~                 |       |                                   |
 | ~~formatSetBlockTextDirection~~  |       |                                   |
 | ~~formatSetInlineTextDirection~~ |       |                                   |
