@@ -14,10 +14,10 @@ custom text editor for project
 
 | inputType                        | status | notes                             |
 | -------------------------------- | ------ | --------------------------------- |
-| insertText                       | `yes`  |                                   |
+| insertText                       | `done` |                                   |
 | ~~insertReplacementText~~        |        | ex. from spellchecker             |
-| insertLineBreak                  | `yes`  | `shift`+`enter`                   |
-| insertParagraph                  | `yes`  | `enter`                           |
+| insertLineBreak                  | `done` | `shift`+`enter`                   |
+| insertParagraph                  | `done` | `enter`                           |
 | ~~insertOrderedList~~            | `skip` | could support but keybind unknown |
 | ~~insertUnorderedList~~          | `skip` | could support but keybind unknown |
 | ~~insertHorizontalRule~~         | `skip` | could support but keybind unknown |
@@ -28,18 +28,18 @@ custom text editor for project
 | insertTranspose                  |        |                                   |
 | insertCompositionText            |        |                                   |
 | insertLink                       |        |                                   |
-| deleteWordBackward               | `yes`  |                                   |
-| deleteWordForward                | `yes`  |                                   |
-| deleteSoftLineBackward           | `yes`  |                                   |
-| deleteSoftLineForward            | `yes`  |                                   |
+| deleteWordBackward               | `done` |                                   |
+| deleteWordForward                | `done` |                                   |
+| deleteSoftLineBackward           | `done` |                                   |
+| deleteSoftLineForward            | `done` |                                   |
 | deleteEntireSoftLine             |        |                                   |
 | deleteHardLineBackward           |        |                                   |
 | deleteHardLineForward            |        |                                   |
 | deleteByDrag                     |        |                                   |
-| deleteByCut                      | `yes`  |                                   |
+| deleteByCut                      | `done` |                                   |
 | deleteContent                    |        |                                   |
-| deleteContentBackward            | `yes`  |                                   |
-| deleteContentForward             | `yes`  |                                   |
+| deleteContentBackward            | `done` |                                   |
+| deleteContentForward             | `done` |                                   |
 | historyUndo                      |        |                                   |
 | historyRedo                      |        |                                   |
 | formatBold                       |        |                                   |
