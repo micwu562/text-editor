@@ -2,30 +2,70 @@
 
 custom text editor for project
 
-### 10 / 13
+### prios
 
-- [ ] ...
-
-### 10 / 12
-
-- [x] move cursor w/ mouse
-- [x] make selections
-- [x] navigate by word, line, etc (option/cmd + arrow keys)
-
-### backlog
-
+- [ ] proper copy-paste support
+- [ ] undo history
 - [ ] css reset; essential css stuff (font-smoothing, etc)
 
-### design decisions
+### support
 
-- display data separate from core data
+#### `beforeinput`-based commands
 
-  - i.e. display has array of chars that 'mirrors' core data
-  - needed since when char deleted, still need to track
-  - display should be told what transaction type happened
-  - selection has to animate too
+| inputType                        | done? | notes                             |
+| -------------------------------- | ----- | --------------------------------- |
+| insertText                       | [x]   |                                   |
+| ~~insertReplacementText~~        |       | ex. from spellchecker             |
+| insertLineBreak                  | [x]   | `shift`+`enter`                   |
+| insertParagraph                  | [x]   | `enter`                           |
+| ~~insertOrderedList~~            |       | could support but keybind unknown |
+| ~~insertUnorderedList~~          |       | could support but keybind unknown |
+| ~~insertHorizontalRule~~         |       | could support but keybind unknown |
+| insertFromYank                   | [ ]   |                                   |
+| insertFromDrop                   | [ ]   |                                   |
+| insertFromPaste                  | [ ]   | implemented but `text/plain` only |
+| insertFromPasteAsQuotation       | [ ]   |                                   |
+| insertTranspose                  | [ ]   |                                   |
+| insertCompositionText            | [ ]   |                                   |
+| insertLink                       | [ ]   |                                   |
+| deleteWordBackward               | [x]   |                                   |
+| deleteWordForward                | [x]   |                                   |
+| deleteSoftLineBackward           | [x]   |                                   |
+| deleteSoftLineForward            | [x]   |                                   |
+| deleteEntireSoftLine             | [ ]   |                                   |
+| deleteHardLineBackward           | [ ]   |                                   |
+| deleteHardLineForward            | [ ]   |                                   |
+| deleteByDrag                     | [ ]   |                                   |
+| deleteByCut                      | [x]   |                                   |
+| deleteContent                    | [ ]   |                                   |
+| deleteContentBackward            | [x]   |                                   |
+| deleteContentForward             | [x]   |                                   |
+| historyUndo                      | [ ]   |                                   |
+| historyRedo                      | [ ]   |                                   |
+| formatBold                       | [ ]   |                                   |
+| formatItalic                     | [ ]   |                                   |
+| ~~formatUnderline~~              |       |                                   |
+| ~~formatStrikethrough~~          |       | could support but keybind unknown |
+| ~~formatSuperscript~~            |       |                                   |
+| ~~formatSubscript~~              |       |                                   |
+| ~~formatJustifyFull~~            |       |                                   |
+| ~~formatJustifyCenter~~          |       |                                   |
+| ~~formatJustifyRight~~           |       |                                   |
+| ~~formatJustifyLeft~~            |       |                                   |
+| formatIndent                     | [ ]   |                                   |
+| formatOutdent                    | [ ]   |                                   |
+| ~~formatRemove~~                 |       |                                   |
+| ~~formatSetBlockTextDirection~~  |       |                                   |
+| ~~formatSetInlineTextDirection~~ |       |                                   |
+| ~~formatBackColor~~              |       |                                   |
+| ~~formatFontColor~~              |       |                                   |
+| ~~formatFontName~~               |       |                                   |
 
-- is no selection null selection or selection === cursor?
+#### additional commands
+
+| inputType  | done? | notes |
+| ---------- | ----- | ----- |
+| insertText | yes   |       |
 
 ### reading list
 
