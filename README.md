@@ -12,54 +12,56 @@ custom text editor for project
 
 #### `beforeinput`-based commands
 
-| inputType                        | status | notes                             |
-| -------------------------------- | ------ | --------------------------------- |
-| insertText                       | `done` |                                   |
-| ~~insertReplacementText~~        |        | ex. from spellchecker             |
-| insertLineBreak                  | `done` | `shift`+`enter`                   |
-| insertParagraph                  | `done` | `enter`                           |
-| ~~insertOrderedList~~            | `skip` | could support but keybind unknown |
-| ~~insertUnorderedList~~          | `skip` | could support but keybind unknown |
-| ~~insertHorizontalRule~~         | `skip` | could support but keybind unknown |
-| insertFromYank                   |        |                                   |
-| insertFromDrop                   |        |                                   |
-| insertFromPaste                  |        | implemented but `text/plain` only |
-| insertFromPasteAsQuotation       |        |                                   |
-| insertTranspose                  |        |                                   |
-| insertCompositionText            |        |                                   |
-| insertLink                       |        |                                   |
-| deleteWordBackward               | `done` |                                   |
-| deleteWordForward                | `done` |                                   |
-| deleteSoftLineBackward           | `done` |                                   |
-| deleteSoftLineForward            | `done` |                                   |
-| deleteEntireSoftLine             |        |                                   |
-| deleteHardLineBackward           |        |                                   |
-| deleteHardLineForward            |        |                                   |
-| deleteByDrag                     |        |                                   |
-| deleteByCut                      | `done` |                                   |
-| deleteContent                    |        |                                   |
-| deleteContentBackward            | `done` |                                   |
-| deleteContentForward             | `done` |                                   |
-| historyUndo                      |        |                                   |
-| historyRedo                      |        |                                   |
-| formatBold                       |        |                                   |
-| formatItalic                     |        |                                   |
-| ~~formatUnderline~~              | `skip` |                                   |
-| ~~formatStrikethrough~~          | `skip` | could support but keybind unknown |
-| ~~formatSuperscript~~            | `skip` |                                   |
-| ~~formatSubscript~~              | `skip` |                                   |
-| ~~formatJustifyFull~~            | `skip` |                                   |
-| ~~formatJustifyCenter~~          | `skip` |                                   |
-| ~~formatJustifyRight~~           | `skip` |                                   |
-| ~~formatJustifyLeft~~            | `skip` |                                   |
-| formatIndent                     |        |                                   |
-| formatOutdent                    |        |                                   |
-| ~~formatRemove~~                 | `skip` |                                   |
-| ~~formatSetBlockTextDirection~~  | `skip` |                                   |
-| ~~formatSetInlineTextDirection~~ | `skip` |                                   |
-| ~~formatBackColor~~              | `skip` |                                   |
-| ~~formatFontColor~~              | `skip` |                                   |
-| ~~formatFontName~~               | `skip` |                                   |
+https://w3c.github.io/input-events/#interface-InputEvent-Attributes
+
+| inputType                        | status | notes                                       |
+| -------------------------------- | ------ | ------------------------------------------- |
+| insertText                       | `done` |                                             |
+| ~~insertReplacementText~~        | `skip` | ex. from spellchecker                       |
+| insertLineBreak                  | `done` | `shift` + `enter`                           |
+| insertParagraph                  | `done` | `enter`                                     |
+| ~~insertOrderedList~~            | `skip` | could support but keybind unknown           |
+| ~~insertUnorderedList~~          | `skip` | could support but keybind unknown           |
+| ~~insertHorizontalRule~~         | `skip` | could support but keybind unknown           |
+| insertFromYank                   |        |                                             |
+| insertFromDrop                   |        |                                             |
+| insertFromPaste                  |        | implemented but `text/plain` only           |
+| ~~insertFromPasteAsQuotation~~   | `skip` | could support but keybind unknown           |
+| insertTranspose                  |        | `ctrl` + `t`; who tf uses this              |
+| insertCompositionText            |        |                                             |
+| insertLink                       |        |                                             |
+| deleteWordBackward               | `done` | `option` + `del`                            |
+| deleteWordForward                | `done` | `fn` + `option` + `del`                     |
+| deleteSoftLineBackward           | `done` | `cmd` + `del` on chrome                     |
+| deleteSoftLineForward            | `done` | `fn` + `cmd` + `del` on chrome              |
+| deleteEntireSoftLine             |        |                                             |
+| deleteHardLineBackward           |        | `cmd` + `del` on safari                     |
+| deleteHardLineForward            |        | `fn` + `cmd` + `del` on safari              |
+| deleteByDrag                     |        |                                             |
+| deleteByCut                      | `done` | `cmd` + `x`                                 |
+| deleteContent                    |        | word/line deletion when selection on safari |
+| deleteContentBackward            | `done` | `del`                                       |
+| deleteContentForward             | `done` | `fn` + `del`                                |
+| historyUndo                      |        |                                             |
+| historyRedo                      |        |                                             |
+| formatBold                       |        |                                             |
+| formatItalic                     |        |                                             |
+| ~~formatUnderline~~              | `skip` |                                             |
+| ~~formatStrikethrough~~          | `skip` | could support but keybind unknown           |
+| ~~formatSuperscript~~            | `skip` |                                             |
+| ~~formatSubscript~~              | `skip` |                                             |
+| ~~formatJustifyFull~~            | `skip` |                                             |
+| ~~formatJustifyCenter~~          | `skip` |                                             |
+| ~~formatJustifyRight~~           | `skip` |                                             |
+| ~~formatJustifyLeft~~            | `skip` |                                             |
+| formatIndent                     |        |                                             |
+| formatOutdent                    |        |                                             |
+| ~~formatRemove~~                 | `skip` |                                             |
+| ~~formatSetBlockTextDirection~~  | `skip` |                                             |
+| ~~formatSetInlineTextDirection~~ | `skip` |                                             |
+| ~~formatBackColor~~              | `skip` |                                             |
+| ~~formatFontColor~~              | `skip` |                                             |
+| ~~formatFontName~~               | `skip` |                                             |
 
 #### additional commands
 
