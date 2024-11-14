@@ -12,60 +12,60 @@ custom text editor for project
 
 #### `beforeinput`-based commands
 
-| inputType                        | done? | notes                             |
-| -------------------------------- | ----- | --------------------------------- |
-| insertText                       | `yes` |                                   |
-| ~~insertReplacementText~~        |       | ex. from spellchecker             |
-| insertLineBreak                  | `yes` | `shift`+`enter`                   |
-| insertParagraph                  | `yes` | `enter`                           |
-| ~~insertOrderedList~~            |       | could support but keybind unknown |
-| ~~insertUnorderedList~~          |       | could support but keybind unknown |
-| ~~insertHorizontalRule~~         |       | could support but keybind unknown |
-| insertFromYank                   | `no`  |                                   |
-| insertFromDrop                   | `no`  |                                   |
-| insertFromPaste                  | `no`  | implemented but `text/plain` only |
-| insertFromPasteAsQuotation       | `no`  |                                   |
-| insertTranspose                  | `no`  |                                   |
-| insertCompositionText            | `no`  |                                   |
-| insertLink                       | `no`  |                                   |
-| deleteWordBackward               | `yes` |                                   |
-| deleteWordForward                | `yes` |                                   |
-| deleteSoftLineBackward           | `yes` |                                   |
-| deleteSoftLineForward            | `yes` |                                   |
-| deleteEntireSoftLine             | `no`  |                                   |
-| deleteHardLineBackward           | `no`  |                                   |
-| deleteHardLineForward            | `no`  |                                   |
-| deleteByDrag                     | `no`  |                                   |
-| deleteByCut                      | `yes` |                                   |
-| deleteContent                    | `no`  |                                   |
-| deleteContentBackward            | `yes` |                                   |
-| deleteContentForward             | `yes` |                                   |
-| historyUndo                      | `no`  |                                   |
-| historyRedo                      | `no`  |                                   |
-| formatBold                       | `no`  |                                   |
-| formatItalic                     | `no`  |                                   |
-| ~~formatUnderline~~              |       |                                   |
-| ~~formatStrikethrough~~          |       | could support but keybind unknown |
-| ~~formatSuperscript~~            |       |                                   |
-| ~~formatSubscript~~              |       |                                   |
-| ~~formatJustifyFull~~            |       |                                   |
-| ~~formatJustifyCenter~~          |       |                                   |
-| ~~formatJustifyRight~~           |       |                                   |
-| ~~formatJustifyLeft~~            |       |                                   |
-| formatIndent                     | `no`  |                                   |
-| formatOutdent                    | `no`  |                                   |
-| ~~formatRemove~~                 |       |                                   |
-| ~~formatSetBlockTextDirection~~  |       |                                   |
-| ~~formatSetInlineTextDirection~~ |       |                                   |
-| ~~formatBackColor~~              |       |                                   |
-| ~~formatFontColor~~              |       |                                   |
-| ~~formatFontName~~               |       |                                   |
+| inputType                        | status | notes                             |
+| -------------------------------- | ------ | --------------------------------- |
+| insertText                       | `yes`  |                                   |
+| ~~insertReplacementText~~        |        | ex. from spellchecker             |
+| insertLineBreak                  | `yes`  | `shift`+`enter`                   |
+| insertParagraph                  | `yes`  | `enter`                           |
+| ~~insertOrderedList~~            | `skip` | could support but keybind unknown |
+| ~~insertUnorderedList~~          | `skip` | could support but keybind unknown |
+| ~~insertHorizontalRule~~         | `skip` | could support but keybind unknown |
+| insertFromYank                   |        |                                   |
+| insertFromDrop                   |        |                                   |
+| insertFromPaste                  |        | implemented but `text/plain` only |
+| insertFromPasteAsQuotation       |        |                                   |
+| insertTranspose                  |        |                                   |
+| insertCompositionText            |        |                                   |
+| insertLink                       |        |                                   |
+| deleteWordBackward               | `yes`  |                                   |
+| deleteWordForward                | `yes`  |                                   |
+| deleteSoftLineBackward           | `yes`  |                                   |
+| deleteSoftLineForward            | `yes`  |                                   |
+| deleteEntireSoftLine             |        |                                   |
+| deleteHardLineBackward           |        |                                   |
+| deleteHardLineForward            |        |                                   |
+| deleteByDrag                     |        |                                   |
+| deleteByCut                      | `yes`  |                                   |
+| deleteContent                    |        |                                   |
+| deleteContentBackward            | `yes`  |                                   |
+| deleteContentForward             | `yes`  |                                   |
+| historyUndo                      |        |                                   |
+| historyRedo                      |        |                                   |
+| formatBold                       |        |                                   |
+| formatItalic                     |        |                                   |
+| ~~formatUnderline~~              | `skip` |                                   |
+| ~~formatStrikethrough~~          | `skip` | could support but keybind unknown |
+| ~~formatSuperscript~~            | `skip` |                                   |
+| ~~formatSubscript~~              | `skip` |                                   |
+| ~~formatJustifyFull~~            | `skip` |                                   |
+| ~~formatJustifyCenter~~          | `skip` |                                   |
+| ~~formatJustifyRight~~           | `skip` |                                   |
+| ~~formatJustifyLeft~~            | `skip` |                                   |
+| formatIndent                     |        |                                   |
+| formatOutdent                    |        |                                   |
+| ~~formatRemove~~                 | `skip` |                                   |
+| ~~formatSetBlockTextDirection~~  | `skip` |                                   |
+| ~~formatSetInlineTextDirection~~ | `skip` |                                   |
+| ~~formatBackColor~~              | `skip` |                                   |
+| ~~formatFontColor~~              | `skip` |                                   |
+| ~~formatFontName~~               | `skip` |                                   |
 
 #### additional commands
 
-| inputType  | done? | notes |
-| ---------- | ----- | ----- |
-| insertText | yes   |       |
+| inputType | status | notes |
+| --------- | ------ | ----- |
+| todo      | todo   | todo  |
 
 ### reading list
 
