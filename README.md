@@ -1,6 +1,17 @@
-# hiccup
+# text-edit
 
 custom text editor for project
+
+### ideas
+
+- undo / redo:
+  - since all mutations are insert/delete, easy to reverse!
+  - can merge successive inserts, etc.
+- char lifetime:
+  - on insertion, only set a 'new' flag.
+  - render loop responsible for setting t, determining age, etc.
+  - a new char only starts counting if prev char is ready - new char becomes ready too.
+  - remember to store performance.now() once.
 
 ### prios
 
@@ -33,7 +44,7 @@ https://w3c.github.io/input-events/#interface-InputEvent-Attributes
 | deleteWordBackward               | `done` | `option` + `del`                            |
 | deleteWordForward                | `done` | `fn` + `option` + `del`                     |
 | deleteSoftLineBackward           | `done` | `cmd` + `del` on chrome                     |
-| deleteSoftLineForward            | `done` | `fn` + `cmd` + `del` on chrome              |
+| deleteSoftLineForward            | `done` | ???                                         |
 | deleteEntireSoftLine             |        |                                             |
 | deleteHardLineBackward           |        | `cmd` + `del` on safari                     |
 | deleteHardLineForward            |        | `fn` + `cmd` + `del` on safari              |
